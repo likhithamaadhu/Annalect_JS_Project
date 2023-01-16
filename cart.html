@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- ------------------------------------------------------ -->
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- ------------------------------------------------------ -->
+ 
+    <!-- cart -->
+    <!-- cart css -->
+    <link rel="stylesheet" href="css/cart.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- javascript -->
+    <script type="javascript" src="js/cart.js"></script>
+    <!-- ---------------------------------------------------------  -->
+  
+ </head>   
+<body>
+<div class="main">
+  <!-- navigation -->
+  <div class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">SHOPEE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="mensclothing.html">Men's Clothing</a>
+            <a class="dropdown-item" href="womensclothing.html">Women's Clothing</a>
+            <a class="dropdown-item" href="jewelery.html">Jewelery</a>
+            <a class="dropdown-item" href="electronics.html">Electronics</a>
+          </div>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="navbar-nav ms-auto">
+        <div class="dropdown">
+          <a class="btn  dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Account
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="login.html">Login</a>
+            <a class="dropdown-item" href="register.html">Register</a>
+          </div>
+        </div>
+        <a href="cart.html" ><img src="images/cart.png" alt="" id="cart-icon"></a>
+        <!-- <i class='bx bxs-cart-alt' style='color:#ffffff'  ></i> -->
+    </div>
+    </div>
+  </nav>
+  </div>
+  <!-- navigation end -->
+   <!-- cart -->
+   <section>
+    <div class="container">
+        <div class="cart">
+            <h2 class="cart-title"> Your Cart</h2>
+            <!-- content -->
+            <div id="cart-item">
+            <!-- <h5>Your cart is empty!</h5> -->
+            <div class="cart-content">
+                <div class="cart-box">
+                    <img src="images/buy-2.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title"> Earbuds</div>
+                        <div class="cart-price">$25</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- remove cart -->
+                     <i class='bx bxs-trash-alt cart-remove'></i>
+                </div>
+            </div>
+          </div>
+            <!-- total -->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0.00</div>
+            </div>
+            <!-- buy button -->
+            <form action="">
+            <button type="submit" class="btn-buy">Buy Now</button>
+          </form>
+
+        </div>
+
+    </div>
+</section>
+    <!-- cart -->
+
+    <!-- footer -->
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for android and ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="images/play-store.png" alt="">
+            <img src="images/app-store.png" alt="">
+          </div>
+        </div>
+  
+        <div class="footer-col-2">
+          <img src="images/name_logo.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+  
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+  
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+  
+      <hr>
+      <p class="copyright">Copyright 2023 - Likhitha Chaitanya </p>
+    </div>
+  </div>
+<!-- ------------------------------------ -->
+</body>
+</html>

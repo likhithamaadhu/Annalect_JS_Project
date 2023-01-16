@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- ------------------------------------------------------ -->
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- ------------------------------------------------------ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- -----------------------------------------------------  -->
+    <!-- cart -->
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- javascript -->
+    <!-- cart -->
+    <!-- ---------------------------------------------------------  -->
+  
+ </head>   
+<body>
+<div class="main">
+  <!-- navigation -->
+  <div class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">SHOPEE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="mensclothing.html">Men's Clothing</a>
+            <a class="dropdown-item" href="womensclothing.html">Women's Clothing</a>
+            <a class="dropdown-item" href="jewelery.html">Jewelery</a>
+            <a class="dropdown-item" href="electronics.html">Electronics</a>
+          </div>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="navbar-nav ms-auto">
+        <div class="dropdown">
+          <a class="btn  dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Account
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="login.html">Login</a>
+            <a class="dropdown-item" href="register.html">Register</a>
+          </div>
+        </div>
+        <a href="cart.html" ><img src="images/cart.png" alt="" id="cart-icon"></a>
+        <!-- <i class='bx bxs-cart-alt' style='color:#ffffff'  ></i> -->
+    </div>
+    </div>
+  </nav>
+  </div>
+  <!-- navigation end -->
+<div class="container">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <a href="electronics.html"><img class="d-block w-100" src="images/carousel_1.jpg" alt="Headphone"></a>
+          </div>
+
+          <div class="carousel-item ">
+            <a href="electronics.html"><img class="d-block w-100" src="images/carousel_2.jpg" alt="Mobile"></a>
+          </div>
+
+          <div class="carousel-item ">
+            <a href="#"><img class="d-block w-100" src="images/carousel_3.jpg" alt="Everyday essentials"></a>
+            </div>
+
+            <div class="carousel-item ">
+            <a href="#"><img class="d-block w-100" src="images/carousel_4.jpg" alt="kitchen"></a>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+</div>
+
+<!-- --------------------------------------------------- -->
+<!-- categories -->
+<div class="middle">
+<h1 style="padding: 20px;">Shop By CATEGORIES</h1>
+
+<section>
+    <div class="categories">
+
+        <div class="row">
+            <div class="column">
+              <a href="womensclothing.html"><img src="images/categories/kurta.jpg" alt="kurtas" ></a>
+              <p>Kurtas</p>
+            </div>
+            
+            <div class="column">
+              <a href="womensclothing.html"><img src="images/categories/saree.jpg" alt="Mountains" ></a>
+              <p>Sarees</p>
+            </div>
+            <div class="column">
+              <a href="mensclothing.html"><img src="images/categories/shirt.jpg" alt="Shirts" ></a>
+                <p>Shirts</p>
+              </div>
+              <div class="column">
+                <a href="mensclothing.html"><img src="images/categories/t-shirt.jpg" alt="T-Shirts"></a>
+                <p>T-Shirts</p>
+              </div>
+              <div class="column">
+                <img src="images/categories/teen.jpg" alt="Boy" >
+                <p>Boy's</p>
+              </div>
+              <div class="column">
+                <img src="images/categories/girls.jpg" alt="Girl">
+                <p>Girl's</p>
+              </div>
+          </div>
+
+          <!-- ---- -->
+          <div class="row">
+            <div class="column">
+              <img src="images/categories/bath.jpg" alt="Snow" >
+              <p>Beauty</p>
+            </div>
+            
+            <div class="column">
+              <img src="images/categories/handbag.jpg" alt="Mountains">
+              <p>Bags</p>
+            </div>
+            <div class="column">
+                <img src="images/categories/mobile.jpg" alt="Mountains">
+                <p>Mobiles</p>
+              </div>
+              <div class="column">
+                <img src="images/categories/pantry.jpg" alt="Mountains" >
+                <p>Pantry</p>
+              </div>
+              <div class="column">
+                <img src="images/categories/shoes.jpg" alt="Mountains" >
+                <p>Shoes</p>
+              </div>
+              <div class="column">
+                <img src="images/categories/watch.jpg" alt="Mountains">
+                <p>Watches</p>
+              </div>
+          </div>
+    </div>
+</section>
+</div>
+<!-- ------------------------------------------------- -->
+<!-- Best Buys -->
+<div class="end">
+    <h1 style="padding: 20px; letter-spacing: 1px;">BEST BUYS</h1>
+
+<section>
+    <div class="best_buys">
+        <div class="row">
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/best_buy/best_buy_1.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/best_buy/best_buy_2.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/best_buy/best_buy_3.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/best_buy/best_buy_4.jpg" alt="Card image cap">
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</section>
+</div>
+<!-- ----------------------------------------------------------------- -->
+<!-- Brands -->
+<section>
+<div class="brands">
+    <div class="row">
+      <div class="column-5">
+        <img src="images/logo-oppo.png" alt="">
+      </div>
+      <div class="column-5">
+        <img src="images/logo-godrej.png" alt="">
+      </div>
+      <div class="column-5">
+        <img src="images/logo-paypal.png" alt="">
+      </div>
+      <div class="column-5">
+        <img src="images/logo-coca-cola.png" alt="">
+      </div>
+      <div class="column-5">
+        <img src="images/logo-philips.png" alt="">
+      </div>
+    </div>
+</div>
+</section>
+<!-- ----------------------- -->
+
+
+<!-- footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for android and ios mobile phone.</p>
+        <div class="app-logo">
+          <img src="images/play-store.png" alt="">
+          <img src="images/app-store.png" alt="">
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="images/name_logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+    <p class="copyright">Copyright 2023 - Likhitha Chaitanya </p>
+  </div>
+</div>
+
+
+<!-- ---------------------------------------------------------------  -->
+
+
+</body>
+</html>

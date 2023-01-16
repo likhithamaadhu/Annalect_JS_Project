@@ -1,0 +1,38 @@
+.title{
+    text-align: center;
+    padding: 2px;
+    font-family:'Times New Roman', Times, serif
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4.5rem;
+    
+    
+}
+.card-img-top{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    box-shadow: 6px 5px 5px 6px rgb(228, 229, 230);
+      margin: 2rem;
+}
+.card:hover{
+    background-color: rgb(180, 218, 252);
+}
+    
+.rating-icon{
+    color: #f8ce0b;
+}
+.row{
+    justify-content: center;
+    column-gap: 5px;
+}
+.price{
+    font-weight: bold;
+}
